@@ -22,10 +22,10 @@ Du får använda AI, men klart bäst om du klarar det utan. Vi kollar på om och
 
 1. Klona/forka projektet till din egna github
 2. Skapa ett react next js projekt utan typescript
-3. Profile/[slug]/form/page.jsx (slug blir id:t sen) localhost://profile/175/form/
+3. Förslag på katalognamn: profile/[slug]/form/page.jsx (slug blir id:t sen) localhost://profile/175/form/
 4. Fetch funktion med id:t ifrån slug
 5. Skapa layout av infon ifrån userdatan (behövs inte mappas, blir bara ett resultat)
 6. Skapa form
 7. Spara i objekt
 8. Använd post method för att skicka objektet i json format till en egengjord php fil
-9. Akapa php filen för att ta emot objektet och spara det in i databasen
+9. Skkapa php filen för att ta emot objektet och spara det in i databasen
