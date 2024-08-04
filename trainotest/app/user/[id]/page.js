@@ -1,15 +1,12 @@
 import Image from 'next/image'
 import Form from '../../form'
 
-/* export function generateStaticParams() {
-    return [{ id: '175' }]
-} */
-
-  // - /user/175
+// URL för testkörning - /user/175
   
   export default async function Page({ params }) {
     const { id } = params
     
+    // Fetchar användardata
     const user = await fetch(`https://traino.nu/php/testgetuser.php?id=${id}`).then((res) => res.json())
 
     return (
